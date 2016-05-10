@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+	<style name="Theme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="android:background">@color/colorAccent</item>
+		<item name="android:colorPrimary">@color/colorAccent</item>			
+	</style>
+	<style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_satu"
+            android:title="First" />
+        <item
+            android:id="@+id/menu_dua"
+            android:title="Second" />
+        <item
+            android:id="@+id/menu_tiga"
+            android:title="Third" />
+		<item
+			android:id="@+id/nav_switch"
+			app:actionLayout="@layout/switch_layout"
+			android:title="Switch Compat" />
+		
+		<item android:title="Sub items">
+			<menu>
+				<item
+					android:id="@+id/sub_1"
+					android:title="Sub item 1" />
+				
+			</menu>
+		</item>
+		
+    </group>
+    
+</menu>
