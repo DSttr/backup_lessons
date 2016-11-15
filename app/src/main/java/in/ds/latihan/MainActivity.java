@@ -64,19 +64,19 @@ public class MainActivity extends AppCompatActivity
         switch(menuItem.getItemId()) {
             case R.id.menu_satu:
                 fragmentClass = FragmentSatu.class;
-				Toast.makeText(MainActivity.this, "Satu", Toast.LENGTH_LONG).show();
+				tampilkanSnackbar( "satu");
                 break;
             case R.id.menu_dua:
                 fragmentClass = FragmentDua.class;
-				Toast.makeText(MainActivity.this, "Dua", Toast.LENGTH_LONG).show();
+				tampilkanSnackbar( "dua");
                 break;
             case R.id.menu_tiga:
                 fragmentClass = FragmentTiga.class;
-				Toast.makeText(MainActivity.this, "Tiga", Toast.LENGTH_LONG).show();
+				tampilkanSnackbar( "tiga");
                 break;
 			case R.id.sub_1:
-                fragmentClass = FragmentTiga.class;
-				Toast.makeText(MainActivity.this, "Sub Satu", Toast.LENGTH_LONG).show();
+                fragmentClass = FragmentEmpat.class;
+				tampilkanSnackbar( "empat");
                 break;
             default:
                 fragmentClass = FragmentSatu.class;
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity
 				@Override
 				public void onClick(View v) {
 
-					Toast.makeText(MainActivity.this, "switched", Toast.LENGTH_LONG).show();
+					tampilkanSnackbar( "switched");
 
 				}
 			});
